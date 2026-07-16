@@ -51,6 +51,23 @@ Este compromiso de cadena de suministro afecta la integridad de las comunicacion
 3.  **Defensa del Usuario:** Uso de herramientas de captura local (ej. PCAPdroid) con bloqueo de QUIC y forzado de DNS sobre TLS (DoT) a proveedores de confianza (Quad9/Cloudflare) para anular el túnel fantasma.
 4.  **Reemplazo:** Sustitución de dispositivos afectados por fabricantes con cadena de suministro auditada y verificable, dado que el compromiso reside en el firmware base del ODM.
 
+## 6. Indicadores de Compromiso (IoCs)".
+Sección: Evidencia de Relación de Indicadores (VirusTotal Graph)
+Descripción: El siguiente enlace proporciona acceso a un VirusTotal Graph interactivo que visualiza la relación criptográfica entre el archivo malicioso confirmado (com.android.fmradio.apk), su certificado digital comprometido (Longcheer Root CA), y otros artefactos relacionados en la cadena de suministro. Esta herramienta permite a los analistas de CISA navegar por las conexiones de forma dinámica para validar la explotación y la persistencia del indicador.
+
+Datos del Archivo Principal:
+
+SHA256: 67a2b242cd2673a00c23f9a7bb68d397a732b1c1a9773fd1d412b7fcb3e20fa1
+Nombre: com.android.fmradio.apk
+Certificado: Longcheer Root CA (Serial: 228526b0d1ef90c3b8ed568a49c3714f6a39506b)
+Enlace de Evidencia (VirusTotal Graph): 🔗 https://www.virustotal.com/graph/embed/g7a4523a99a5240beabfd78aaa020ecf8a40d5253580644e1841b2d2849528f91?theme=dark
+
+Instrucciones de Validación para CISA:
+
+El nodo central representa el APK malicioso firmado por Longcheer.
+Los nodos conectados muestran el certificado X.509, los dominios de red (C2), y otras muestras que comparten el mismo certificado o características de compilación.
+La ausencia de detección por motores antivirus (0/60) en el nodo principal confirma la naturaleza de compromiso de cadena de suministro firmado legítimamente, validando la necesidad de reglas de comportamiento (YARA) en lugar de detección por firma tradicional. 
+
 ---
 **Firmado:**
 Alex de la Cruz
