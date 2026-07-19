@@ -65,7 +65,7 @@ rule Unisoc_Silent_Rescue_BootROM {
         hash = "SHA256: [f1843ab9df2245d5920c5764732cfee2f1a3092f71b319a965bc695938593e3e]"
     
     strings:
-        $lcd_trigger = "lcd_td4168" ascii
+        $lcd_trigger = "lcd_td4160" ascii
         $mailbox_log = "Unisoc_mailbox" ascii
         $ghost_part = "sda48" ascii
         $fake_key = "56cf134d" hex
