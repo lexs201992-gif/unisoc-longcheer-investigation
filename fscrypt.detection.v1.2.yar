@@ -2,7 +2,7 @@ rule Unisoc_Silent_Rescue_BootROM_T606_fscrypt
 {
     meta:
         description = "Detects Unisoc T606 Silent Rescue - modified init.rc + fscrypt X.509 provisioning bypass"
-        author = "lexs17"
+        author = "Alexdelacruz"
         date = "2026-07-20"
         version = "1.2"
         reference = "Operation Silent Rescue - Unisoc T606"
