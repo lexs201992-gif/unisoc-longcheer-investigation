@@ -1,4 +1,5 @@
-rule Unisoc_Silent_Rescue_BootROM_T606_fscrypt {
+rule Unisoc_Silent_Rescue_BootROM_T606_fscrypt 
+{
     meta:
         description = "Detects Unisoc T606 Silent Rescue - modified init.rc + fscrypt X.509 provisioning bypass"
         author = "lexs17"
