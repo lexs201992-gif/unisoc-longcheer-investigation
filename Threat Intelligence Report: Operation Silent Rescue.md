@@ -16,7 +16,7 @@ The malware achieves persistence that survives factory resets through modificati
 ### 2. Technical Analysis & Attack Chain
 The attack follows a “Swiss Cheese” model (multiple layers of defense failures):
 
-1. **Trigger**: Hardware detection of the LCD panel `lcd_td4168` during boot.
+1. **Trigger**: Hardware detection of the LCD panel `lcd_td4160` during boot.
 2. **Bypass**: Kernel `init.rc` scripts load a malicious provisioning blob signed with a non-standard key (`56cf134d...`), disabling `fsverity` and `fscrypt`.
 3. **Persistence**: Malware resides in protected memory regions (`nd_pmem`, ghost partition `sda48` on eMMC) and `/system/priv-app`.
 
