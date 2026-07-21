@@ -1,5 +1,5 @@
 # unisoc-longcheer-investigation CVE-2022-25326
-fscrypt autogenereted key by x509 pem for monitoring and exfiltration 24/7 by rescue party system remote controlled by wireguard Jenkins pipeline and using protocol quic 443 
+fscrypt autogenereted key by x509 pem for monitoring and exhilaration 24/7 by rescue party system remote controlled by wireguard Jenkins pipeline and using protocol quic 443 
 
 officially nominated to kev tue 21 jul 2026
 by independent security and risk investigator
