@@ -6,11 +6,11 @@ by independent security and risk investigator
 Alexis michel de la cruz correa 
 Mexico city 
 investigation date oct 2025 to jul 2026 
-all data is reproducible in every sspreadtrum t606 with the details here presented 
+all data is reproducible in every spreadtrum t606 with the details here presented 
 i show four part importants registered during rescue party system and using every time 
 this is an official security report 
 submitted to CISA, Cisco talos intelligence and rapid7 
-device phone number and imei is registered by my curp and named by mexican law officially 
+device phone number and imei is registered by my curp and name by mexican law officially 
 
 # INFORME OFICIAL DE INVESTIGACIÓN: COMPROMISO DE CADENA DE SUMINISTRO UNISOC/LONGCHEER
 
