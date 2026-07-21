@@ -1,4 +1,17 @@
-# unisoc-longcheer-investigation
+# unisoc-longcheer-investigation CVE-2022-25326
+fscrytp autogenereted key by x509 pem for monitoring and exfiltration 24/7 by rescue party system remote controlled by wireguard Jenkins pipeline and using protocol quic 443 
+
+officially nominated to kev tue 21 jul 2026
+by independent security and risk investigator
+Alexis michel de la cruz correa 
+Mexico city 
+investigation date oct 2025 to jul 2026 
+all data is reproducible in every sspreadtrum t606 with the details here presented 
+i show four part importants registered during rescue party system and using every time 
+this is an official security report 
+submitted to CISA, Cisco talos intelligence and rapid7 
+device phone number and imei is registered by my curp and named by mexican law officially 
+
 # INFORME OFICIAL DE INVESTIGACIÓN: COMPROMISO DE CADENA DE SUMINISTRO UNISOC/LONGCHEER
 
 **Fecha:** 16 de julio de 2026  
